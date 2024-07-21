@@ -39,7 +39,7 @@ const tools = computed<ToolCategory[]>(() => [
         <HeroGradient class="gradient" />
         <div class="text-wrapper">
           <div class="title">
-            白羽IT工具
+            白羽 IT 工具
           </div>
           <div class="divider" />
           <div class="subtitle">
