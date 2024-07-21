@@ -6,7 +6,7 @@ test.describe('Tool - Text to ASCII binary', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('Text to ASCII binary - IT Tools');
+    await expect(page).toHaveTitle('Text to ASCII binary - 白羽 IT 工具');
   });
 
   test('Text to binary conversion', async ({ page }) => {

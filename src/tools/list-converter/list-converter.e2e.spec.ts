@@ -6,7 +6,7 @@ test.describe('Tool - List converter', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('List converter - IT Tools');
+    await expect(page).toHaveTitle('List converter - 白羽 IT 工具');
   });
 
   test('Simple list should be converted with default settings', async ({ page }) => {

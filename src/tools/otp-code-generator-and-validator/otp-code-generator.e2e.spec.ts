@@ -9,7 +9,7 @@ test.describe('Tool - OTP code generator', () => {
   });
 
   test('Has title', async ({ page }) => {
-    await expect(page).toHaveTitle('OTP code generator - IT Tools');
+    await expect(page).toHaveTitle('OTP code generator - 白羽 IT 工具');
   });
 
   test('Secret hexa value is computed from provided secret', async ({ page }) => {

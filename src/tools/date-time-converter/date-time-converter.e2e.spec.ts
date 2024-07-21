@@ -6,7 +6,7 @@ test.describe('Date time converter - json to yaml', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('Date-time converter - IT Tools');
+    await expect(page).toHaveTitle('Date-time converter - 白羽 IT 工具');
   });
 
   test('Format is auto detected from a date and the date is correctly converted', async ({ page }) => {
