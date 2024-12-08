@@ -39,7 +39,7 @@ const tools = computed<ToolCategory[]>(() => [
         <HeroGradient class="gradient" />
         <div class="text-wrapper">
           <div class="title">
-            白羽 IT 工具
+            文文 IT 工具
           </div>
           <div class="divider" />
           <div class="subtitle">
@@ -59,7 +59,7 @@ const tools = computed<ToolCategory[]>(() => [
 
         <CollapsibleToolMenu :tools-by-category="tools" />
 
-        <div class="footer">Powered by xiaoqy (白小七羽)</div>
+        <div class="footer">© 2024 Allen Shaw. All Rights Reserved.</div>
       </div>
     </template>
 

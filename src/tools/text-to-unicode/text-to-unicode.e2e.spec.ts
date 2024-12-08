@@ -6,7 +6,7 @@ test.describe('Tool - Text to Unicode', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('Text to Unicode - 白羽 IT 工具');
+    await expect(page).toHaveTitle('Text to Unicode - 文文 IT 工具');
   });
 
   test('Text to unicode conversion', async ({ page }) => {

@@ -6,6 +6,6 @@ test.describe('Tool - Pdf signature checker', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('PDF signature checker - 白羽 IT 工具');
+    await expect(page).toHaveTitle('PDF signature checker - 文文 IT 工具');
   });
 });

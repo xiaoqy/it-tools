@@ -6,6 +6,6 @@ test.describe('Tool - Phone parser and formatter', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('Phone parser and formatter - 白羽 IT 工具');
+    await expect(page).toHaveTitle('Phone parser and formatter - 文文 IT 工具');
   });
 });

@@ -7,7 +7,7 @@ import { config } from '@/config';
 
 const toolStore = useToolStore();
 
-useHead({ title: '白羽 IT 工具 - 为开发人员提供便捷的在线工具' });
+useHead({ title: '文文 IT 工具 - 为开发人员提供便捷的在线工具' });
 const { t } = useI18n();
 </script>
 

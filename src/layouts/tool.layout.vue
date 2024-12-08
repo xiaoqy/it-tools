@@ -10,7 +10,7 @@ import type { Tool } from '@/tools/tools.types';
 const route = useRoute();
 
 const head = computed<HeadObject>(() => ({
-  title: `${route.meta.name} - 白羽 IT 工具`,
+  title: `${route.meta.name} - 文文 IT 工具`,
   meta: [
     {
       name: 'description',

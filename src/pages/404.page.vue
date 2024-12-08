@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head';
 
-useHead({ title: 'Page not found - 白羽 IT 工具' });
+useHead({ title: 'Page not found - 文文 IT 工具' });
 </script>
 
 <template>

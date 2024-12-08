@@ -6,6 +6,6 @@ test.describe('Tool - Http status codes', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('HTTP status codes - 白羽 IT 工具');
+    await expect(page).toHaveTitle('HTTP status codes - 文文 IT 工具');
   });
 });
